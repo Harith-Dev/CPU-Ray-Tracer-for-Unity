@@ -17,16 +17,7 @@ public class FreeLook : MonoBehaviour
     float rotationY;
     public bool IsMoving;
     public bool Zooming;
-    [Header("Small Window Setting")]
-    [Range(0f, 1f)]
-    public float SmallWindowSize;
-    public RawImage RawImage;
-    [Space(2)]
-    public Vector3 BigSize;
-    public Vector3 BigPosition;
-    [Space(2)]
-    public Vector3 SmallSize;    
-    public Vector3 SmallPosition;
+    
     
 
     void Start()
@@ -105,16 +96,13 @@ public class FreeLook : MonoBehaviour
                 rayTracingCamera.StaticScene = false;
                 rayTracingCamera.AccumulatedFrames = 1;
             }
-            else
-            {
-
-            }
+            
             
         }
         else
         {
             IsMoving = false;
-            //rayTracingCamera.Refrash = true;
+          
             rayTracingCamera.StaticScene = true;
         }
 
@@ -125,12 +113,6 @@ public class FreeLook : MonoBehaviour
         }
 
 
-
-        RawImage.rectTransform.sizeDelta = Vector2.Lerp(BigSize, SmallSize,1f - SmallWindowSize);
-        RawImage.rectTransform.position = Vector2.Lerp(BigPosition, SmallPosition,1f - SmallWindowSize);
-
-        //Blurr
-        
 
     }
 
