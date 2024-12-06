@@ -1,6 +1,6 @@
 CPU Ray Tracer For Unity using only C# with (Unity Burst & Job System)
 
--Sepport
+-Support
 
 1- Ray Tracing Shadow
 
@@ -10,9 +10,13 @@ CPU Ray Tracer For Unity using only C# with (Unity Burst & Job System)
 
 4- Ray Tracing Reflaction & Reflaction (Shadow only)
 
+5- Support Clear Coat, Albedo Map, Blurry Refraction.
+
 -Bugs & Probloms
 
 1- Very slow in Rendering
+
+2- not sepport multiple bounces.
 
 -Simple Samples Images
 <p style="text-align:left;">
@@ -44,7 +48,13 @@ CPU Ray Tracer For Unity using only C# with (Unity Burst & Job System)
 
 ----------information------------
 
-its not very optimazed for Real Time so to Run it in Real time you shoud set "ScreenSize" to about (200,100) and its use very simple math Functions and mothods and its not sepport multiple bounces
+its not very optimazed for Real Time so to Run it in Real time you shoud set "ScreenSize" to about (200,100) and its use very simple math Functions and mothods and its not sepport multiple bounces.
+
+----------Dev-------------
+
+By Harith.CGDV
+
+From IRAQ
 
 
 
