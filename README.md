@@ -1,6 +1,6 @@
-CPU Ray Tracer For Unity using only C# with (Unity Burst & Job System)
+CPU Ray Tracing For Unity using only C# with (Unity Burst & Job System) 
 
--Support
+-Supports
 
 1- Ray Tracing Shadow
 
@@ -9,6 +9,8 @@ CPU Ray Tracer For Unity using only C# with (Unity Burst & Job System)
 3- Ray Tracing Caustics
 
 4- Ray Tracing Reflaction & Reflaction (Shadow only)
+
+5- Ray Tracing Depth of field
 
 5- Support Clear Coat, Albedo Map, Blurry Refraction.
 
@@ -36,7 +38,7 @@ CPU Ray Tracer For Unity using only C# with (Unity Burst & Job System)
 
 2/ "RayTracingMaterial" Script (to set Material Properties)
 
-3/ Only Sepport "SkinnedMeshRenderer" and "MeshCollider"
+3/ Every Object in scene should have Collider (Only Sepport "SkinnedMeshRenderer" and "MeshCollider")
 
 3- drop "RayTracingCamera" Script in your Camera
 
@@ -48,11 +50,18 @@ CPU Ray Tracer For Unity using only C# with (Unity Burst & Job System)
 
 ----------information------------
 
-its not very optimazed for Real Time so to Run it in Real time you shoud set "ScreenSize" to about (200,100) and its use very simple math Functions and mothods and its not sepport multiple bounces.
+its not very optimazed for Real Time so to Run it in Real time you should set "ScreenSize" to about (200,100)
+and its not sepport multiple bounces.
+alot of shading tasks its run on main thread to keep it simple.
+its use very simple math Functions and algorithms so its simple and good source to learn from it.
+
+Planned Improvements:
+- Adding multi-bounce ray tracing for better lighting effects.
+- Improving performance with better algorithms or using Unity’s Burst features.
 
 ----------Dev-------------
 
-By Harith.CGDV
+By Harith.CSDV
 
 From IRAQ
 
