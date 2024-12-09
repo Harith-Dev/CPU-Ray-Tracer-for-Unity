@@ -1,4 +1,4 @@
-CPU Ray Tracing For Unity using only C# with (Unity Burst & Job System) 
+CPU Ray Tracing For Unity Engine using only C# with (Unity Burst & Job System) 
 
 -Supports
 
@@ -32,6 +32,8 @@ CPU Ray Tracing For Unity using only C# with (Unity Burst & Job System)
 
 1- in your project drag and drop "Source Code" Folder
 
+2- Install the Burst package from the Unity Package Manager.
+
 2- every game object in you scene shoud have this
 
 1/ Give "Object" Tag To Every Object
@@ -61,7 +63,9 @@ Planned Improvements:
 
 ----------Dev-------------
 
-By Harith.CSDV
+By Harith.CGDV
+
+16 years old Aspiring Researcher in Computer Science and Graphics.
 
 From IRAQ
 
