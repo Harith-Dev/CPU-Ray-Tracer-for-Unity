@@ -34,7 +34,7 @@ CPU Ray Tracing For Unity Engine using only C# with (Unity Burst & Job System)
 
 2- Install the Burst package from the Unity Package Manager.
 
-2- every game object in you scene shoud have this
+3- every game object in you scene shoud have this
 
 1/ Give "Object" Tag To Every Object
 
@@ -42,13 +42,13 @@ CPU Ray Tracing For Unity Engine using only C# with (Unity Burst & Job System)
 
 3/ Every Object in scene should have Collider (Only Sepport "SkinnedMeshRenderer" and "MeshCollider")
 
-3- drop "RayTracingCamera" Script in your Camera
+4- drop "RayTracingCamera" Script in your Camera
 
-4- drop "FreeLook" script in you camera to move and Update Rendering(Optional)
+5- drop "FreeLook" script in you camera to move and Update Rendering(Optional)
 
-5- Create a raw image and make it scale to fit the entire screen
+6- Create a raw image and make it scale to fit the entire screen
 
-6- just set "UpdateFrame" to true to Update Rendering
+7- just set "UpdateFrame" to true to Update Rendering
 
 ----------information------------
 
